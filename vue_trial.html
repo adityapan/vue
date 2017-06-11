@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://unpkg.com/vue"></script>
+	<title>Trying Different Things</title>
+</head>
+<body>
+	<div id="v1">
+		{{message}}
+	</div>
+	<div id="v2" v-bind:title="message">
+		message
+	</div>
+	<div id="v3" v-if="seen">
+		THis is a toggle if
+	</div>
+	<div id="v4">
+		<ol>
+			<li v-for="item in items">
+				{{item.item}}
+			</li>
+		<ol>
+	</div>
+</body>
+<script type="text/javascript">
+	var v1 = new Vue({
+		el:"#v1",
+		data:{
+			message:"this is a message"
+		}
+	})	
+
+	var v2 = new Vue({
+		el:"#v2",
+		data:{
+			message:"lol"
+		}
+	})
+
+	var v3 = new Vue({
+		el:"#v3",
+		data:{
+			seen:true
+		}
+	})
+
+	var v4 = new Vue({
+		el:"#v4",
+		data:{
+			items:[
+				{item : "this"},
+				{item : "is"},
+				{item : "somedata"}
+			]
+		}
+	})
+</script>
+</html>

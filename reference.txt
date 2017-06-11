@@ -11,5 +11,6 @@ practice:
 1. just render some data using vue
 2. try out data bind (bind works on properties btw)
 3. try out if condition
-4. for loop 
-5. create a template, props and then print data using for loop
+4. onClick
+5. for loop 
+6. create a template, props and then print data using for loop
