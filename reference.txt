@@ -1,0 +1,15 @@
+keywords learnt so far:
+1. Progressive Framework
+2. Reactive update (values)
+3. Directives (things prefixed with 'v-' special attributes provided by vue)
+4. Modify Structure
+5. Transition Effects
+6. v-on for attaching event listeners
+7. components
+
+practice:
+1. just render some data using vue
+2. try out data bind (bind works on properties btw)
+3. try out if condition
+4. for loop 
+5. create a template, props and then print data using for loop
