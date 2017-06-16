@@ -1,0 +1,22 @@
+https://skyronic.com/blog/vue-project-scratch
+
+must have webpack installed 
+npm install -g webpack
+
+Steps:
+1. create package.json
+	1.1 Add devdependencies
+2. Add webpack.config.js -> has the webpack build process
+3. Create and add .babelrc (parser for advanced es notations)
+4. npm install (for dependencies)
+5. npm install --save Vue (install vue in project folder)
+6. webpack (if windwos doesn't recognize its in C:\Users\aditya.pan67\AppData\Roaming\npm\webpack)
+7. Vue 2 needs this 
+	resolve: {
+	  alias: {
+	    vue: 'vue/dist/vue.js'
+	  }
+	}
+	inside webpack.config
+	https://github.com/vuejs/vue/issues/2873
+8. 
