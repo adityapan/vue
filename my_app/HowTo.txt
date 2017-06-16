@@ -3,6 +3,8 @@ https://skyronic.com/blog/vue-project-scratch
 must have webpack installed 
 npm install -g webpack
 
+Remember to add node_modules/ and dist/ to gitignore or tfsignore
+
 Steps:
 1. create package.json
 	1.1 Add devdependencies
@@ -19,4 +21,10 @@ Steps:
 	}
 	inside webpack.config
 	https://github.com/vuejs/vue/issues/2873
-8. 
+
+For adding vue files:
+1. modify package.json for the new modules
+2. Add the vue file and component tags and source inside html
+3. modify webpack.config to add the loader info
+4. npm install
+5. webpack
